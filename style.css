@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+
+#container{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px 40px;
+    border-radius: 50px;
+    margin-top: 10%;
+}
+
+#title{
+    font-size: 48px;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    margin: 0;
+}
+
+#timer{
+    font-size: 56px;
+    margin: 0;
+    font-family: 'Quicksand';
+    margin: 20px;
+}
+
+.btn{
+    font-size: 28px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-family: 'Quicksand';
+    outline: none;
+    background-color: transparent;
+    border: 1px solid turquoise;
+    color: turquoise;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.btn:hover{
+    color: white;
+    background-color: turquoise;
+}
